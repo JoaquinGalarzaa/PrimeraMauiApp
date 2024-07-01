@@ -1,4 +1,6 @@
-﻿namespace PrimeraMauiApp
+﻿using PrimeraMauiApp.Pages;
+
+namespace PrimeraMauiApp
 {
     public partial class App : Application
     {
@@ -7,6 +9,8 @@
             InitializeComponent();
 
             MainPage = new AppShell();
+            MainPage = new InicioPage();
+
         }
     }
 }
